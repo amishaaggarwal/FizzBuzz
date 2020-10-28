@@ -1,8 +1,16 @@
 package FB1;
 
 public class Fb {
+	
+	public static void main(String[] args){
+		for(int i=1;i<=100;i++)
+		{
+			String r = action(i);
+			System.out.println(r);
+		}
+	}
 
-	public String action(int i) 
+	public static String action(int i) 
 	{
 		if(i<=100 && i>=1)
 		{
@@ -18,5 +26,5 @@ public class Fb {
 		else
 			return "Number entered is not in range of 1-100";
 	}
-
+	
 }
